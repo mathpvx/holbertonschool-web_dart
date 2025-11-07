@@ -1,7 +1,5 @@
 void main(List<String> args) {
   var score = int.parse(args[0]);
-  print(score);
-
   if (score >= 80) {
     print("You passed");
   }
